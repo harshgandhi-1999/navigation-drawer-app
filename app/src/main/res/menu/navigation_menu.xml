@@ -1,4 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/homeMenuItem"
+            android:title="@string/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            />
+        <item
+            android:id="@+id/messagesMenuItem"
+            android:title="@string/messages"
+            android:icon="@drawable/ic_baseline_message_24"
+            />
 
+        <item
+            android:id="@+id/syncMenuItem"
+            android:title="@string/sync"
+            android:icon="@drawable/ic_baseline_sync_24"
+            />
+
+        <item
+            android:id="@+id/trashMenuItem"
+            android:title="@string/trash"
+            android:icon="@drawable/ic_baseline_delete_24"
+            />
+        <item
+            android:id="@+id/settingsMenuItem"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            />
+    </group>
+
+    <group android:id="@+id/grp2">
+        <item android:title="@string/profile">
+            <menu>
+                <item
+                    android:id="@+id/loginMenuItem"
+                    android:title="@string/login"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    />
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/grp3">
+        <item android:title="@string/communicate">
+            <menu>
+                <item
+                    android:id="@+id/shareMenuItem"
+                    android:title="@string/share"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    />
+                <item
+                    android:id="@+id/rateMenuItem"
+                    android:title="@string/rate_us"
+                    android:icon="@drawable/ic_baseline_rate_review_24"
+                    />
+            </menu>
+        </item>
+    </group>
 </menu>
