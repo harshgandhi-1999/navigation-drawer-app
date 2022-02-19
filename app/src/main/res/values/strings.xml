@@ -11,4 +11,7 @@
     <string name="communicate">Communicate</string>
     <string name="profile">Profile</string>
     <string name="navigation_drawer_application">Navigation Drawer Application</string>
+    <string name="username">Username</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
 </resources>
